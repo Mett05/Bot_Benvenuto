@@ -1,0 +1,11 @@
+Per far partire il server c'è bisogno dell'estensione di Visual Studio ovvero di Node.js;
+Una volta scarita ed installata riavviando il pc aprite tutta la cartella del bot premendo tasto destro sulla cartella e aprendola con Visual Studio Code;
+Ora mettete il TOKEN del bot che create tramite Discord Developer Portal,ID del canale dove il bot manderà il messaggio di Benvenuto e ID del canale dove il bot manderà il messaggio di Addio;
+Ora sempre tenendo tutto aperto in alto su Visual Studio Code ci sta un cosa chiamata "TERMINALE" apritelo e scrivete: 
+npm init
+npm i discord.js 
+node .
+A questo punto se vi dice "BOT STARTATO CON SUCCESSO" il bot sarà ONLINE
+//ATTENZIONE//
+Dovete lasciare la pagina di visual studio aperta affinche il bot continui a funzionare 
+oppure create un file .bat così da startarlo da là e tenere una pagina CMD (SEMPRE APERTA OVVIAMENTE) invece che tenere Visual Studio Code aperto 
